@@ -1,0 +1,3 @@
+## Introduction
+
+The purpose of this project is to develop a flight booking system for FlyDreamAir that allows customers to book flights directly, manage reservations, and access in-flight services. Currently, the company relies heavily on third-party platforms, limiting its control over customer experience and data. This IT solution aims to increase customer satisfaction, improve operational efficiency, and reduce dependency on external agencies. The system will provide a user-friendly interface for passengers and enable FlyDreamAir to stay competitive in the rapidly evolving airline industry.
