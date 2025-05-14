@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkySelect - Airplane Seat Selection</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --business: #8b5cf6;
+            --economy: #3b82f6;
+            --selected: #22c55e;
+            --unavailable: #ef4444;
+            --hover: #cbd5e1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8fafc;
+            color: #334155;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        h1 {
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+        }
+        
+        .progress-container {
+            margin: 2rem 0;
+        }
+        
+        .progress-steps {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .progress-steps::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #e2e8f0;
+            z-index: -1;
+        }
+        
+        .progress-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+        }
+        
+        .step-number {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background-color: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .active .step-number {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .completed .step-number {
+            background-color: var(--selected);
+            color: white;
+        }
+        
+        .main-content {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .seat-map {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar {
+            width: 300px;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .plane {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .plane-header {
+            width: 60%;
+            height: 60px;
+            background-color: #e2e8f0;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .rows-container {
+            width: 100%;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+        
+        .class-label {
+            text-align: center;
+            font-weight: bold;
+            margin: 1rem 0;
+            padding: 0.5rem;
+            background-color: #f1f5f9;
+            border-radius: 0.25rem;
+        }
+        
+        .business-class {
+            color: var(--business);
+        }
+        
+        .economy-class {
+            color: var(--economy);
+        }
+        
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+            gap: 0.5rem;
+        }
+        
+        .row-number {
+            display: flex;
+            align-items: center;
+            width: 30px;
+            color: #64748b;
+            font-weight: bold;
+        }
+        
+        .seats {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .seat-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .middle-space {
+            width: 2rem;
+        }
+        
+        .seat {
+            width: 40px;
+            height: 40px;
+            border-radius: 0.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+        
+        .seat:hover:not(.unavailable) {
+            background-color: var(--hover) !important;
+        }
+        
+        .business {
+            background-color: #ddd6fe;
+            border: 1px solid var(--business);
+        }
+        
+        .economy {
+            background-color: #dbeafe;
+            border: 1px solid var(--economy);
+        }
+        
+        .unavailable {
+            background-color: #fecaca !important;
+            border: 1px solid var(--unavailable);
+            color: #7f1d1d;
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .selected {
+            background-color: #dcfce7 !important;
+            border: 1px solid var(--selected);
+            color: #166534;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        
+        .legend-business {
+            background-color: #ddd6fe;
+            border: 1px solid var(--business);
+        }
+        
+        .legend-economy {
+            background-color: #dbeafe;
+            border: 1px solid var(--economy);
+        }
+        
+        .legend-selected {
+            background-color: #dcfce7;
+            border: 1px solid var(--selected);
+        }
+        
+        .legend-unavailable {
+            background-color: #fecaca;
+            border: 1px solid var(--unavailable);
+        }
+        
+        .seat-info {
+            margin-bottom: 2rem;
+        }
+        
+        .seat-info-header {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .seat-info-content {
+            padding: 1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .seat-info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .passenger-info {
+            margin-top: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+        }
+        
+        .price-summary {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #f8fafc;
+            border-radius: 0.5rem;
+        }
+        
+        .total {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 2rem;
+            transition: background-color 0.2s;
+        }
+        
+        .btn:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .info-msg {
+            text-align: center;
+            color: #64748b;
+            margin-top: 1rem;
+        }
+        
+        .plane-footer {
+            width: 60%;
+            height: 30px;
+            background-color: #e2e8f0;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SkySelect</h1>
+        <p>Choose your perfect seat for a comfortable journey</p>
+    </header>
+    
+    <div class="container">
+        <div class="progress-container">
+            <div class="progress-steps">
+                <div class="progress-step completed">
+                    <div class="step-number">1</div>
+                    <div class="step-label">Flight Details</div>
+                </div>
+                <div class="progress-step active">
+                    <div class="step-number">2</div>
+                    <div class="step-label">Seat Selection</div>
+                </div>
+                <div class="progress-step">
+                    <div class="step-number">3</div>
+                    <div class="step-label">Passenger Info</div>
+                </div>
+                <div class="progress-step">
+                    <div class="step-number">4</div>
+                    <div class="step-label">Payment</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="seat-map">
+                <h2>Select Your Seat</h2>
+                <p>Flight: SQ123 - New York (JFK) to London (LHR)</p>
+                <p>Date: May 15, 2025 • Departure: 22:45</p>
+                
+                <div class="plane">
+                    <div class="plane-header">Front</div>
+                    <div class="rows-container">
+                        <div class="class-label business-class">Business Class</div>
+                        
+                        <!-- Business Class Rows -->
+                        <div class="row">
+                            <div class="row-number">1</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat business" onclick="selectSeat('1A')">1A</div>
+                                    <div class="seat business unavailable">1B</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat business" onclick="selectSeat('1C')">1C</div>
+                                    <div class="seat business" onclick="selectSeat('1D')">1D</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">2</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat business unavailable">2A</div>
+                                    <div class="seat business" onclick="selectSeat('2B')">2B</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat business" onclick="selectSeat('2C')">2C</div>
+                                    <div class="seat business unavailable">2D</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">3</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat business" onclick="selectSeat('3A')">3A</div>
+                                    <div class="seat business" onclick="selectSeat('3B')">3B</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat business unavailable">3C</div>
+                                    <div class="seat business" onclick="selectSeat('3D')">3D</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="class-label economy-class">Economy Class</div>
+                        
+                        <!-- Economy Class Rows -->
+                        <div class="row">
+                            <div class="row-number">4</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('4A')">4A</div>
+                                    <div class="seat economy" onclick="selectSeat('4B')">4B</div>
+                                    <div class="seat economy" onclick="selectSeat('4C')">4C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('4D')">4D</div>
+                                    <div class="seat economy" onclick="selectSeat('4E')">4E</div>
+                                    <div class="seat economy" onclick="selectSeat('4F')">4F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">5</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy unavailable">5A</div>
+                                    <div class="seat economy" onclick="selectSeat('5B')">5B</div>
+                                    <div class="seat economy" onclick="selectSeat('5C')">5C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy unavailable">5D</div>
+                                    <div class="seat economy unavailable">5E</div>
+                                    <div class="seat economy" onclick="selectSeat('5F')">5F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">6</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('6A')">6A</div>
+                                    <div class="seat economy" onclick="selectSeat('6B')">6B</div>
+                                    <div class="seat economy unavailable">6C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('6D')">6D</div>
+                                    <div class="seat economy" onclick="selectSeat('6E')">6E</div>
+                                    <div class="seat economy" onclick="selectSeat('6F')">6F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">7</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('7A')">7A</div>
+                                    <div class="seat economy" onclick="selectSeat('7B')">7B</div>
+                                    <div class="seat economy" onclick="selectSeat('7C')">7C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('7D')">7D</div>
+                                    <div class="seat economy unavailable">7E</div>
+                                    <div class="seat economy" onclick="selectSeat('7F')">7F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">8</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('8A')">8A</div>
+                                    <div class="seat economy" onclick="selectSeat('8B')">8B</div>
+                                    <div class="seat economy" onclick="selectSeat('8C')">8C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('8D')">8D</div>
+                                    <div class="seat economy" onclick="selectSeat('8E')">8E</div>
+                                    <div class="seat economy" onclick="selectSeat('8F')">8F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">9</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy unavailable">9A</div>
+                                    <div class="seat economy unavailable">9B</div>
+                                    <div class="seat economy" onclick="selectSeat('9C')">9C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('9D')">9D</div>
+                                    <div class="seat economy" onclick="selectSeat('9E')">9E</div>
+                                    <div class="seat economy" onclick="selectSeat('9F')">9F</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="row-number">10</div>
+                            <div class="seats">
+                                <div class="seat-group">
+                                    <div class="seat economy" onclick="selectSeat('10A')">10A</div>
+                                    <div class="seat economy" onclick="selectSeat('10B')">10B</div>
+                                    <div class="seat economy" onclick="selectSeat('10C')">10C</div>
+                                </div>
+                                <div class="middle-space"></div>
+                                <div class="seat-group">
+                                    <div class="seat economy unavailable">10D</div>
+                                    <div class="seat economy" onclick="selectSeat('10E')">10E</div>
+                                    <div class="seat economy" onclick="selectSeat('10F')">10F</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plane-footer"></div>
+                </div>
+                
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color legend-business"></div>
+                        <span>Business Class</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color legend-economy"></div>
+                        <span>Economy Class</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color legend-selected"></div>
+                        <span>Selected</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color legend-unavailable"></div>
+                        <span>Unavailable</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="seat-info">
+                    <h3 class="seat-info-header">Your Selection</h3>
+                    <div class="seat-info-content">
+                        <div id="no-seat-selected">No seat selected yet</div>
+                        <div id="seat-details" style="display: none;">
+                            <div class="seat-info-row">
+                                <span>Seat:</span>
+                                <span id="selected-seat"></span>
+                            </div>
+                            <div class="seat-info-row">
+                                <span>Class:</span>
+                                <span id="selected-class"></span>
+                            </div>
+                            <div class="seat-info-row">
+                                <span>Position:</span>
+                                <span id="seat-position"></span>
+                            </div>
+                            <div class="seat-info-row">
+                                <span>Price:</span>
+                                <span id="seat-price"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="passenger-info">
+                    <h3>Passenger Information</h3>
+                    <form id="passenger-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="frequent-flyer">Frequent Flyer Number (optional)</label>
+                            <input type="text" id="frequent-flyer" name="frequent-flyer">
+                        </div>
+                        <div class="form-group">
+                            <label for="meal-preference">Meal Preference</label>
+                            <select id="meal-preference" name="meal-preference">
+                                <option value="regular">Regular</option>
+                                <option value="vegetarian">Vegetarian</option>
+                                <option value="vegan">Vegan</option>
+                                <option value="gluten-free">Gluten Free</option>
+                                <option value="kosher">Kosher</option>
+                                <option value="halal">Halal</option>
+                            </select>
+                        </div>
+                    </form>
+                    
+                    <div class="price-summary">
+                        <h4>Price Summary</h4>
+                        <div class="seat-info-row">
+                            <span>Base Fare:</span>
+                            <span>$499.00</span>
+                        </div>
+                        <div class="seat-info-row">
+                            <span>Taxes & Fees:</span>
+                            <span>$87.50</span>
+                        </div>
+                        <div class="seat-info-row">
+                            <span>Seat Selection:</span>
+                            <span id="seat-selection-price">$0.00</span>
+                        </div>
+                        <div class="total">
+                            <span>Total:</span>
+                            <span id="total-price">$586.50</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn" onclick="continueToPayment()">Continue to Payment</button>
+                    <p class="info-msg">You'll review your selections before payment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let currentlySelectedSeat = null;
+        
+        function selectSeat(seatId) {
+            // Get the seat element
+            const seats = document.querySelectorAll('.seat');
+            const clickedSeat = Array.from(seats).find(seat => seat.textContent === seatId);
+            
+            // If already unavailable, don't do anything
+            if (clickedSeat.classList.contains('unavailable')) {
+                return;
+            }
+            
+            // If there's a currently selected seat, unselect it
+            if (currentlySelectedSeat) {
+                currentlySelectedSeat.classList.remove('selected');
+            }
+            
+            // Select the new seat
+            clickedSeat.classList.add('selected');
+            currentlySelectedSeat = clickedSeat;
+            
+            // Update seat information in the sidebar
+            document.getElementById('no-seat-selected').style.display = 'none';
+            document.getElementById('seat-details').style.display = 'block';
+            document.getElementById('selected-seat').textContent = seatId;
+            
+            const isBusinessClass = clickedSeat.classList.contains('business');
+            const seatClass = isBusinessClass ? 'Business' : 'Economy';
+            document.getElementById('selected-class').textContent = seatClass;
+            
+            // Determine seat position
+            let position = '';
+            if (seatId.includes('A') || seatId.includes('F')) {
+                position = 'Window';
+            } else if (seatId.includes('C') || seatId.includes('D')) {
+                position = 'Aisle';
+            } else {
+                position = 'Middle';
+            }
+            document.getElementById('seat-position').textContent = position;
+            
+            // Set price based on class
+            const price = isBusinessClass ? '$75.00' : '$25.00';
+            document.getElementById('seat-price').textContent = price;
+            document.getElementById('seat-selection-price').textContent = price;
+            
+            // Update total price
+            const basePriceAndFees = 586.50;
+            const seatPrice = isBusinessClass ? 75.00 : 25.00;
+            const totalPrice = basePriceAndFees + seatPrice;
+            document.getElementById('total-price').textContent = `$${totalPrice.toFixed(2)}`;
+        }
+        
+        function continueToPayment() {
+            if (!currentlySelectedSeat) {
+                alert('Please select a seat before continuing.');
+                return;
+            }
+            
+            const nameInput = document.getElementById('name').value;
+            const emailInput = document.getElementById('email').value;
+            
+            if (!nameInput || !emailInput) {
+                alert('Please fill in all required passenger information.');
+                return;
+            }
+            
+            alert('Proceeding to payment... (This is a demo, payment processing is not implemented)');
+        }
+    </script>
+</body>
+</html>
