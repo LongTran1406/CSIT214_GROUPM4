@@ -9,7 +9,6 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #fff;
-      position: relative;
     }
     .header {
       background: url('./images/dreamair-bg.jpg') no-repeat center center;
@@ -17,7 +16,6 @@
       max-width: 1728px;
       min-height: 480px;
       background-size: cover;
-      position: relative;
       margin: 0 auto;
     }
     .dots {
@@ -41,6 +39,7 @@
       left: 50%;
       transform: translateX(-50%);
       width: 1034px;
+      height: 504px;
     }
     .nav {
       display: flex;
@@ -66,13 +65,13 @@
       background-color: #2A63A0;
     }
     .form-container {
-      width: 1034px;
-      height: 504px;
+      width: 100%;
+      height: 100%;
       background: #FFFCF7;
       padding: 40px 30px 30px;
       border-radius: 0 0 20px 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      position: relative;
+      box-sizing: border-box;
     }
     .radio-options {
       margin-bottom: 30px;
@@ -94,34 +93,25 @@
       border-radius: 6px;
       background-color: #2A63A0;
       color: white;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .row > * {
       flex: 1;
-    }
-    input::placeholder {
-      color: white;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: #A7C9F0;
-      color: #000;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0A4079;
-      color: #fff;
     }
     .calendar-icon::after {
       content: "\1F4C5";
       margin-left: 5px;
+    }
+    input::placeholder {
+      color: white;
     }
     .calendar {
       position: absolute;
       top: 45px;
       left: 0;
       width: 403px;
-      height: 294px;
+      height: auto;
       background: #F4F8FE;
       border-radius: 8px;
       font-family: Arial, sans-serif;
@@ -130,11 +120,18 @@
       display: none;
       z-index: 999;
     }
-    .calendar h3 {
-      text-align: center;
-      margin-top: 0;
-      font-size: 18px;
-      color: #000;
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .calendar-header button {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: #0A4079;
     }
     .calendar table {
       width: 100%;
@@ -155,6 +152,30 @@
       background-color: #DCEBFD;
       border-radius: 4px;
     }
+    .calendar td.selected {
+      background-color: #0A4079;
+      color: white;
+      border-radius: 4px;
+    }
+    .search-button {
+      background-color: #A7C9F0;
+      color: #000;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 30px;
+      cursor: pointer;
+      align-self: flex-end;
+    }
+    .search-button:hover {
+      background-color: #0A4079;
+      color: #fff;
+    }
+    .search-container {
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -163,14 +184,12 @@
       <span class="active"></span><span></span><span></span>
     </div>
   </div>
-
   <div class="container">
     <div class="nav">
       <div class="active">BOOK FLIGHT</div>
       <div>MANAGE RESERVATION</div>
       <div>CHECK-IN</div>
     </div>
-
     <div class="form-container">
       <div class="radio-options">
         <label><input type="radio" name="trip" checked> Return</label>
@@ -180,50 +199,18 @@
         <select>
           <option>From</option>
         </select>
-        <div style="position: relative; flex: 1;">
+        <div style="position: relative;">
           <input id="departInput" type="text" placeholder="Depart" class="calendar-icon">
-          <div class="calendar" id="calendar-depart">
-            <h3>May 2025</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-                <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
-                <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
-                <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
-                <tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
-              </tbody>
-            </table>
-          </div>
+          <div class="calendar" id="calendar-depart"></div>
         </div>
       </div>
       <div class="row">
         <select>
           <option>To</option>
         </select>
-        <div style="position: relative; flex: 1;">
+        <div style="position: relative;">
           <input id="returnInput" type="text" placeholder="Return" class="calendar-icon">
-          <div class="calendar" id="calendar-return">
-            <h3>May 2025</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-                <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
-                <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
-                <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
-                <tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
-              </tbody>
-            </table>
-          </div>
+          <div class="calendar" id="calendar-return"></div>
         </div>
       </div>
       <div class="row">
@@ -232,38 +219,101 @@
         </select>
         <input type="text" placeholder="Promotion code">
       </div>
-      <div class="row" style="justify-content: flex-end;">
-        <button>Search 🔍</button>
+      <div class="search-container">
+        <button class="search-button">Search 🔍</button>
       </div>
     </div>
   </div>
-
   <script>
-    const departInput = document.getElementById('departInput');
-    const returnInput = document.getElementById('returnInput');
-    const calendarDepart = document.getElementById('calendar-depart');
-    const calendarReturn = document.getElementById('calendar-return');
+    let selectedDepart = null;
+    let selectedReturn = null;
+    let calendarState = {
+      'calendar-depart': { month: new Date().getMonth(), year: new Date().getFullYear() },
+      'calendar-return': { month: new Date().getMonth(), year: new Date().getFullYear() }
+    };
 
-    departInput.addEventListener('click', function (e) {
+    function generateCalendar(containerId, inputId, isReturn = false) {
+      const calendar = document.getElementById(containerId);
+      const { month, year } = calendarState[containerId];
+      const firstDay = new Date(year, month, 1).getDay();
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      let day = 1;
+
+      const monthName = new Date(year, month).toLocaleString('default', { month: 'long' });
+      let html = `<div class='calendar-header'>
+        <button onclick="changeMonth('${containerId}', '${inputId}', ${isReturn}, -1)">◀</button>
+        <h3>${monthName} ${year}</h3>
+        <button onclick="changeMonth('${containerId}', '${inputId}', ${isReturn}, 1)">▶</button>
+      </div>
+      <table><thead><tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody>`;
+
+      for (let i = 0; i < 6; i++) {
+        html += '<tr>';
+        for (let j = 1; j <= 7; j++) {
+          const dayIndex = (j + 5) % 7;
+          if ((i === 0 && dayIndex < firstDay) || day > daysInMonth) {
+            html += '<td></td>';
+          } else {
+            const dateStr = `${day}/${month + 1}/${year}`;
+            const isSelected = isReturn ? selectedReturn === dateStr : selectedDepart === dateStr;
+            html += `<td class="${isSelected ? 'selected' : ''}" onclick="selectDate('${containerId}', '${inputId}', '${dateStr}', ${isReturn})">${day}</td>`;
+            day++;
+          }
+        }
+        html += '</tr>';
+        if (day > daysInMonth) break;
+      }
+      html += '</tbody></table>';
+      calendar.innerHTML = html;
+    }
+
+    function changeMonth(containerId, inputId, isReturn, offset) {
+      calendarState[containerId].month += offset;
+      if (calendarState[containerId].month > 11) {
+        calendarState[containerId].month = 0;
+        calendarState[containerId].year++;
+      }
+      if (calendarState[containerId].month < 0) {
+        calendarState[containerId].month = 11;
+        calendarState[containerId].year--;
+      }
+      generateCalendar(containerId, inputId, isReturn);
+    }
+
+    function selectDate(containerId, inputId, dateStr, isReturn) {
+      document.getElementById(inputId).value = dateStr;
+      if (isReturn) {
+        selectedReturn = dateStr;
+      } else {
+        selectedDepart = dateStr;
+      }
+      generateCalendar(containerId, inputId, isReturn);
+      document.getElementById(containerId).style.display = 'none';
+    }
+
+    document.getElementById('departInput').addEventListener('click', function (e) {
       e.stopPropagation();
-      calendarDepart.style.display = 'block';
-      calendarReturn.style.display = 'none';
+      document.getElementById('calendar-depart').style.display = 'block';
+      document.getElementById('calendar-return').style.display = 'none';
+      generateCalendar('calendar-depart', 'departInput');
     });
 
-    returnInput.addEventListener('click', function (e) {
+    document.getElementById('returnInput').addEventListener('click', function (e) {
       e.stopPropagation();
-      calendarReturn.style.display = 'block';
-      calendarDepart.style.display = 'none';
+      document.getElementById('calendar-return').style.display = 'block';
+      document.getElementById('calendar-depart').style.display = 'none';
+      generateCalendar('calendar-return', 'returnInput', true);
     });
 
     document.addEventListener('click', function (e) {
-      if (!calendarDepart.contains(e.target) && e.target !== departInput) {
-        calendarDepart.style.display = 'none';
+      if (!document.getElementById('calendar-depart').contains(e.target) && e.target !== document.getElementById('departInput')) {
+        document.getElementById('calendar-depart').style.display = 'none';
       }
-      if (!calendarReturn.contains(e.target) && e.target !== returnInput) {
-        calendarReturn.style.display = 'none';
+      if (!document.getElementById('calendar-return').contains(e.target) && e.target !== document.getElementById('returnInput')) {
+        document.getElementById('calendar-return').style.display = 'none';
       }
     });
   </script>
 </body>
 </html>
+
