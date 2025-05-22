@@ -13,7 +13,7 @@ ENV/
 .vscode/
 
 # macOS
-.DS_Store
+.DS_Stadore
 
 # Windows
 Thumbs.db

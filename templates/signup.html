@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyDreamAir - Sign In</title>
+    <title>FlyDreamAir - Sign Up</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -21,16 +21,16 @@
         </div>
         <div class="nav-right">
             <a href="#" class="nav-link">Support</a>
-            <a href="login.html" class="nav-link active">Log-in</a>
-            <a href="signup.html" class="nav-link">Sign-up</a>
+            <a href="signin.html" class="nav-link">Log-in</a>
+            <a href="signup.html" class="nav-link active">Sign-up</a>
             <a href="#" class="nav-link">English</a>
         </div>
     </nav>
 
     <main class="main-container">
         <div class="login-container">
-            <h1>Sign in</h1>
-            <p class="signup-text">Don't have an account yet? <a href="/signup" class="signup-link">Register here</a></p>
+            <h1>Create Account</h1>
+            <p class="signup-text">Already have an account? <a href="\" class="signup-link">Sign in here</a></p>
 
             <button class="google-btn">
                 <img src="{{ url_for('static', filename='assets/google_login.png') }}" alt="Google Icon">
@@ -41,9 +41,17 @@
                 <span>or</span>
             </div>
 
-            <form class="login-form" id="loginForm">
+            <form class="login-form" id="signupForm">
                 <div class="form-group">
-                    <label for="email">Email</label>
+                    <label for="fullname">Enter Your Full Name</label>
+                    <div class="input-container">
+                        <img src="{{ url_for('static', filename='assets/fullname_logo.jpg') }}" alt="Person Icon" class="input-icon">
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Enter Your Email</label>
                     <div class="input-container">
                         <img src="{{ url_for('static', filename='assets/mail-open-line.png') }}" alt="Email Icon" class="input-icon">
                         <input type="email" id="email" name="email" placeholder="Enter your email" required>
@@ -51,11 +59,30 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="password">Password</label>
+                    <label for="phone">Enter Your Phone Number</label>
+                    <div class="input-container">
+                        <img src="{{ url_for('static', filename='assets/phone_logo.jpg') }}" alt="Phone Icon" class="input-icon">
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Enter Your Password</label>
                     <div class="input-container">
                         <img src="{{ url_for('static', filename='assets/lock-password-line.png') }}" alt="Password Icon" class="input-icon">
-                        <input type="password" id="password" name="password" placeholder="Password" required minlength="8">
+                        <input type="password" id="password" name="password" placeholder="Create a password" required minlength="8">
                         <button type="button" class="password-toggle" onclick="togglePassword('password')">
+                            <img src="{{ url_for('static', filename='assets/password_hide.png') }}" alt="Show password">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Your Password</label>
+                    <div class="input-container">
+                        <img src="{{ url_for('static', filename='assets/lock-password-line.png') }}" alt="Password Icon" class="input-icon">
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                        <button type="button" class="password-toggle" onclick="togglePassword('confirmPassword')">
                             <img src="{{ url_for('static', filename='assets/password_hide.png') }}" alt="Show password">
                         </button>
                     </div>
@@ -63,14 +90,13 @@
 
                 <div class="form-options">
                     <label class="remember-me">
-                        <input type="checkbox" id="remember">
+                        <input type="checkbox" id="terms" required>
                         <span class="checkmark"></span>
-                        Remember me
+                        I agree to the <a href="#" class="terms-link">Terms and Conditions</a>
                     </label>
-                    <a href="#" class="forgot-password">Reset?</a>
                 </div>
 
-                <button type="submit" class="login-btn">Login</button>
+                <button type="submit" class="login-btn">Create Account</button>
             </form>
         </div>
     </main>
@@ -90,36 +116,31 @@
             }
         }
 
-        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+        document.getElementById('signupForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            
+            const fullName = document.getElementById('fullname').value;
             const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
             const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
             
-            if (password.length < 8) {
-                alert('Password must be at least 8 characters long!');
+            if (password !== confirmPassword) {
+                alert('Passwords do not match!');
                 return;
             }
             
-            const response = await fetch('/api/login', {
+            const response = await fetch('/api/signup', {
                 method:'POST',
                 headers:{
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({email, password})
+                body: JSON.stringify({fullName, email, phone, password})
             })
             const answer = await response.json()
-            console.log(answer['status'])
-            if(answer['status'] == 'ok'){
-                window.location.href = '/home'
-            }
-            else{
-                alert('Incorrect email or password');
-                window.location.href = '/'
-            }
+
             // Here you would typically send the form data to your server
-            // Redirect to dashboard or home page
-            // window.location.href = 'dashboard.html';
+            alert('Account created successfully!');
+            window.location.href = '/';
         });
     </script>
 </body>

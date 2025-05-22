@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Passenger Information</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles_passenger.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="route">
+        <span class="city">{{depart}}</span>
+        <span class="arrow">⇄</span>
+        <span class="city">{{arrive}}</span>
+      </div>
+    </header>
+    <div class="trip-details">
+      <div class="trip-box">
+        <span class="icon">✈️</span>
+        <div>
+          <div class="label">Depart</div>
+          <!-- <div class="date">6 May 2025</div> -->
+        </div>
+      </div>
+      <div class="trip-box">
+        <span class="icon">✈️</span>
+        <div>
+          <div class="label">Return</div>
+          <!-- <div class="date">6 June 2025</div> -->
+        </div>
+      </div>
+      <div class="trip-box selected">
+        <span class="icon">👤</span>
+        <div>
+          <div class="label">Passenger(s)</div>
+          <div class="date">1</div>
+        </div>
+      </div>
+    </div>
+    <section class="passenger-section">
+      <div class="adult-header">
+        <span class="adult-icon">🧑</span>
+        <span>Adult (1)</span>
+      </div>
+      <form class="passenger-form">
+        <h2>Passenger Information</h2>
+        <label>Title*<input type="text" required></label>
+        <label>Middle name and First/Given name (as in passport)*<input type="text" required id="fname"></label>
+        <label>Last/Family name (as in passport)*<input type="text" required id="lname"></label>
+        <label>Date of Birth (DD/MM/YYYY)*<input type="text" required></label>
+        <label>Membership number<input type="text"></label>
+      </form>
+    </section>
+    <footer>
+      <button class="back" onclick="cancel()">Cancel</button>
+      <div class="price"> {{price}} <span class="currency">AUD</span></div>
+      <button class="continue" onclick="createFlight()">Done</button>
+    </footer>
+  </div>
+  <script>
+    async function createFlight(){
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var fullName = fname + " " + lname;
+        const response = await fetch('/api/passenger', {
+                method:'POST',
+                headers:{
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({fullName})
+            })
+            const answer = await response.json()
+        console.log(answer)
+        alert('Finish');
+        window.location.href = '/home';
+    }
+
+    async function cancel(){
+      const response = await fetch('/api/cancelFlight');
+      const answer = await response.json();
+      alert('Cancel successfully!');
+      window.location.href='/home';
+    }
+  </script>
+</body>
+</html>

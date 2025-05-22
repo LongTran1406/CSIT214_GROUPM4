@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Booking - FlyDreamAir</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles_manage_booking.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo-back">
+      <div class="nav-left">
+            <img src="{{ url_for('static', filename='assets/Logo.png') }}" alt="FlyDreamAir Logo" class="logo">
+            <span class="logo-text">FlyDreamAir</span>
+      </div>
+    </div>
+    <br/>
+    <a class="back" id="back-button" href="/home"  style="text-decoration: none">&larr; Back</a>
+    <h1>Manage Booking</h1>
+  </header>
+
+  <main>
+    <section class="booking-summary">
+      <div class="banner">
+        <div class="banner-text">
+          <div class="trip-title" id="trip-title">Melbourne Trip</div>
+          <div class="booking-number">Booking number: <span id="booking-number">ABCDEFG123</span></div>
+        </div>
+      </div>
+      <div class="flight-info">
+        <div class="route">
+          <div class="city">
+            <span class="code" id="from-code">SYD</span>
+            <span class="name" id="from-name">Sydney</span>
+          </div>
+          <div class="arrow">
+            <span class="date" id="departure-date">6 May 2025</span>
+            <span class="duration" id="duration">1h10m</span>
+            <span class="date" id="arrival-date">6 May 2025</span>
+          </div>
+          <div class="city">
+            <span class="code" id="to-code">MEL</span>
+            <span class="name" id="to-name">Melbourne</span>
+          </div>
+        </div>
+        <div class="times">
+          <span id="departure-time">10:40 am</span>
+          <span id="arrival-time">11:50 am</span>
+        </div>
+        <div class="passenger">
+          <span class="passenger-label">Passengers</span>
+          <span class="passenger-name" id="passenger-name">Mr John Smith (Adult)</span>
+        </div>
+      </div>
+    </section>
+
+    <aside class="manage-bookings">
+      <div class="manage-title">Manage bookings</div>
+      <a href="/payment" class="manage-link">Payment</a>
+      <a href="/history" class="manage-link">Booking history</a>
+      <a href="/passenger" class="manage-link">Passenger Details</a>
+      <a href="/help" class="manage-link">Help</a>
+    </aside>
+
+    <section class="update-flights">
+      <h2>UPDATE YOUR FLIGHTS</h2fi>
+      <div class="update-options">
+        <div class="option">
+          <div class="icon"><img src="{{ url_for('static', filename='assets/seat.png') }}" alt="Seat"></div>
+          <div class="option-title">Seat</div>
+          <a href="/seat" class="option-action">Select</a>
+          <div class="option-status not-selected" id="seat-status">NOT SELECTED</div>
+        </div>
+        <div class="option">
+          <div class="icon"><img src="{{ url_for('static', filename='assets/meal.png') }}" alt="Meal"></div>
+          <div class="option-title">Meals</div>
+          <a href="/meals" class="option-action">Add</a>
+          <div class="option-status not-added" id="meal-status">NOT ADDED</div>
+        </div>
+        <div class="option">
+          <div class="icon"><img src="{{ url_for('static', filename='assets/carry.png') }}" alt="Carry packages"></div>
+          <div class="option-title">Carry baggages</div>
+          <a href="/carry-baggage" class="option-action">Add</a>
+          <div class="option-status" id="carry-baggage-status">7kg luggages</div>
+        </div>
+        <div class="option">
+          <div class="icon"><img src="{{ url_for('static', filename='assets/checked.png') }}" alt="Checked packages"></div>
+          <div class="option-title">Checked baggages</div>
+          <a href="/checked-baggage" class="option-action">Add</a>
+          <div class="option-status" id="checked-baggage-status">40kg luggages</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Replace demo values with actual backend data
+    document.getElementById('trip-title').textContent = "{{ trip_title }}";
+    document.getElementById('booking-number').textContent = "{{ booking_number }}";
+    document.getElementById('from-code').textContent = "{{ from_code }}";
+    document.getElementById('from-name').textContent = "{{ from_name }}";
+    document.getElementById('to-code').textContent = "{{ to_code }}";
+    document.getElementById('to-name').textContent = "{{ to_name }}";
+    document.getElementById('departure-date').textContent = "{{ departure_date }}";
+    document.getElementById('arrival-date').textContent = "{{ arrival_date }}";
+    document.getElementById('duration').textContent = "{{ flight_duration }}";
+    document.getElementById('departure-time').textContent = "{{ departure_time }}";
+    document.getElementById('arrival-time').textContent = "{{ arrival_time }}";
+    document.getElementById('passenger-name').textContent = "{{ fullname }}";
+    document.getElementById('seat-status').textContent = "{{ seat_status }}";
+    document.getElementById('meal-status').textContent = "{{ food }}";
+    document.getElementById('carry-baggage-status').textContent = "{{ carry_baggage }}";
+    document.getElementById('checked-baggage-status').textContent = "{{ checked_baggage }}";
+  </script>
+</body>
+</html>

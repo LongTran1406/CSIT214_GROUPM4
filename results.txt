@@ -1,0 +1,1382 @@
+{
+    "airports": [
+        {
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport"
+                    },
+                    "city": "Adelaide",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7P7zWJDpSiWQ-x_zV3WdNUsuIXssPJtpMnkEwIODVIR0uc87ZFKEUF7GV0a2Vx2SlRPc7Km6nMoL8Lg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_afCBMU72VAQPKn4A8c_MmGMF9pLr4Lr-HPTUa6RAr7imr891c8iKX14Zj4dQkZ3jD_nr_tM2sCrjbsp1IiP7CGuu06gqQf4I6RFuRQ"
+                }
+            ],
+            "departure": [
+                {
+                    "airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport"
+                    },
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0Z-TRPPWRr9jfw9_bef8vbKwIqJCTV4768myiQ-0AMA_zCGQwZXz2A5bsJA2kFdaDnwGB64dSl99mg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJVWIr_OblT6otC-OtC5Miq8ZPWn8Ks4RrOtEWQF0-ePi0MEX7ik7E6D6YXy3TyL3ob9pHmwwjKusCoB7ZMnSbmGsspwzm57u-vfrjxM"
+                }
+            ]
+        },
+        {
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport"
+                    },
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0Z-TRPPWRr9jfw9_bef8vbKwIqJCTV4768myiQ-0AMA_zCGQwZXz2A5bsJA2kFdaDnwGB64dSl99mg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJVWIr_OblT6otC-OtC5Miq8ZPWn8Ks4RrOtEWQF0-ePi0MEX7ik7E6D6YXy3TyL3ob9pHmwwjKusCoB7ZMnSbmGsspwzm57u-vfrjxM"
+                }
+            ],
+            "departure": [
+                {
+                    "airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport"
+                    },
+                    "city": "Adelaide",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7P7zWJDpSiWQ-x_zV3WdNUsuIXssPJtpMnkEwIODVIR0uc87ZFKEUF7GV0a2Vx2SlRPc7Km6nMoL8Lg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_afCBMU72VAQPKn4A8c_MmGMF9pLr4Lr-HPTUa6RAr7imr891c8iKX14Zj4dQkZ3jD_nr_tM2sCrjbsp1IiP7CGuu06gqQf4I6RFuRQ"
+                }
+            ]
+        }
+    ],
+    "best_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -23,
+                "this_flight": 55000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZLVVRjM05ob0xDUFNXQWhBQ0dnTkJWVVE0SEhEb3N3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzc2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321neo",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 07:55"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 07:00"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 55 kg"
+                    ],
+                    "flight_number": "JQ 776",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 357,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJeU14b0xDSWpUQWhBQ0dnTkJWVVE0SEhETTJnRT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjIzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 13:10"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 12:15"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 223",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 434,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZM014b0xDSnpkQWhBQ0dnTkJWVVE0SEhDUzRRRT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjczIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 07:15"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 06:25"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 673",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 447,
+            "total_duration": 80,
+            "type": "Round trip"
+        }
+    ],
+    "other_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 69000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZLVVRjM05Cb0xDSkN2QWhBQ0dnTkJWVVE0SEhDMnd3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzc0Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 10:35"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 09:40"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 69 kg"
+                    ],
+                    "flight_number": "JQ 774",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 388,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -4,
+                "this_flight": 68000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZLVVRjM01ob0xDSkN2QWhBQ0dnTkJWVVE0SEhDMnd3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzcyIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 11:40"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 10:45"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 68 kg"
+                    ],
+                    "flight_number": "JQ 772",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 388,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 69000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZLVVRjM09Cb0xDSkN2QWhBQ0dnTkJWVVE0SEhDMnd3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzc4Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 17:15"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 16:20"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 69 kg"
+                    ],
+                    "flight_number": "JQ 778",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 388,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 69000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZLVVRjNE1ob0xDSkN2QWhBQ0dnTkJWVVE0SEhDMnd3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzgyIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 22:00"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 21:05"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 69 kg"
+                    ],
+                    "flight_number": "JQ 782",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 388,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJek14b0xDSXpCQWhBQ0dnTkJWVVE0SEhDQnp3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjMzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 17:05"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 16:10"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 233",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 411,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJME1Sb0xDSXpCQWhBQ0dnTkJWVVE0SEhDQnp3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjQxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 19:10"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 18:15"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 241",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 411,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 6,
+                "this_flight": 75000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJME54b0xDSXpCQWhBQ0dnTkJWVVE0SEhDQnp3RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjQ3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 21:10"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 20:15"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "VA 247",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 411,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJek1Sb0xDSWpzQWhBQ0dnTkJWVVE0SEhEYjZnRT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjMxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 15:45"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 14:50"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 231",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 466,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJek54b0xDSWpzQWhBQ0dnTkJWVVE0SEhEYjZnRT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjM3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 18:10"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 17:15"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 237",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 466,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZM05Sb0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjc1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 09:25"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 08:35"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 675",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZM09Sb0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjc5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 11:35"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 10:45"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 679",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZNE14b0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjgzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 13:30"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 12:40"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 683",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZNE5Sb0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjg1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 15:35"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 14:45"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 685",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZNU14b0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjkzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 18:20"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 17:30"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 693",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZNU54b0xDSXlNQXhBQ0dnTkJWVVE0SEhDdS93RT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjk3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 20:20"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 19:30"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 697",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 507,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 70000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJeE1Sb0xDTmlVQXhBQ0dnTkJWVVE0SEhEemhBST0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjExIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 08:05"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 07:10"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 70 kg"
+                    ],
+                    "flight_number": "VA 211",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 518,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 3,
+                "this_flight": 73000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZSUmpZNU1Sb0xDT1RDQXhBQ0dnTkJWVVE0SEhEUG9nST0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNjkxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 17:30"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 16:40"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 72 kg"
+                    ],
+                    "flight_number": "QF 691",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 577,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": 151,
+                "this_flight": 178000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ3RLVVRVd01IeEtVVGMyTWhvTENOL1dBeEFDR2dOQlZVUTRISEMrcndJPSIsW1siTUVMIiwiMjAyNS0wNS0yMyIsIlNZRCIsbnVsbCwiSlEiLCI1MDAiXSxbIlNZRCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIkpRIiwiNzYyIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-23 07:25"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 06:00"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 500",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 11:20"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-23 09:35"
+                    },
+                    "duration": 135,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 103 kg"
+                    ],
+                    "flight_number": "JQ 762",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 130,
+                    "id": "SYD",
+                    "name": "Sydney Airport"
+                }
+            ],
+            "price": 603,
+            "total_duration": 350,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 37,
+                "this_flight": 97000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1pSUmpFM09UTWFDd2lrZ1FRUUFob0RRVlZFT0J4dzljb0MiLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiMTc5MyJdXV0=",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Embraer 190",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 19:40"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 18:50"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 96 kg"
+                    ],
+                    "flight_number": "QF 1793",
+                    "legroom": "31 in",
+                    "plane_and_crew_by": "Alliance Airlines",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 657,
+            "total_duration": 80,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 163,
+                "this_flight": 187000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ3RSUmpReE5IeFJSamN6TlJvTENPQ0RCUkFDR2dOQlZVUTRISENEbndNPSIsW1siTUVMIiwiMjAyNS0wNS0yMyIsIlNZRCIsbnVsbCwiUUYiLCI0MTQiXSxbIlNZRCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlFGIiwiNzM1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-23 08:55"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 07:30"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 414",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 12:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-23 10:25"
+                    },
+                    "duration": 130,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 108 kg"
+                    ],
+                    "flight_number": "QF 735",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 90,
+                    "id": "SYD",
+                    "name": "Sydney Airport"
+                }
+            ],
+            "price": 824,
+            "total_duration": 305,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 48,
+                "this_flight": 105000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJeE54b0xDTWk2QmhBQ0dnTkJWVVE0SEhEeGxBUT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjE3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 10:05"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 09:10"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 105 kg"
+                    ],
+                    "flight_number": "VA 217",
+                    "travel_class": "Business Class"
+                }
+            ],
+            "price": 1058,
+            "total_duration": 85,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 58,
+                "this_flight": 112000,
+                "typical_for_this_route": 71000
+            },
+            "departure_token": "WyJDalJJWm14eFpGZHpMUzAxVERSQlFtODBOM2RDUnkwdExTMHRMUzB0ZG5kaVpXUXlNMEZCUVVGQlIyZDFkR05WVERSMWJHRkJFZ1ZXUVRJeE9Sb0xDTWk2QmhBQ0dnTkJWVVE0SEhEeGxBUT0iLFtbIk1FTCIsIjIwMjUtMDUtMjMiLCJBREwiLG51bGwsIlZBIiwiMjE5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "ADL",
+                        "name": "Adelaide Airport",
+                        "time": "2025-05-23 11:05"
+                    },
+                    "departure_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-23 10:10"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 112 kg"
+                    ],
+                    "flight_number": "VA 219",
+                    "travel_class": "Business Class"
+                }
+            ],
+            "price": 1058,
+            "total_duration": 85,
+            "type": "Round trip"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 357,
+        "price_history": [
+            [
+                1742648400,
+                201
+            ],
+            [
+                1742734800,
+                201
+            ],
+            [
+                1742821200,
+                196
+            ],
+            [
+                1742907600,
+                196
+            ],
+            [
+                1742994000,
+                212
+            ],
+            [
+                1743080400,
+                212
+            ],
+            [
+                1743166800,
+                223
+            ],
+            [
+                1743253200,
+                223
+            ],
+            [
+                1743339600,
+                212
+            ],
+            [
+                1743426000,
+                223
+            ],
+            [
+                1743512400,
+                233
+            ],
+            [
+                1743598800,
+                233
+            ],
+            [
+                1743685200,
+                233
+            ],
+            [
+                1743771600,
+                243
+            ],
+            [
+                1743858000,
+                243
+            ],
+            [
+                1743948000,
+                243
+            ],
+            [
+                1744034400,
+                243
+            ],
+            [
+                1744120800,
+                236
+            ],
+            [
+                1744207200,
+                243
+            ],
+            [
+                1744293600,
+                253
+            ],
+            [
+                1744380000,
+                243
+            ],
+            [
+                1744466400,
+                207
+            ],
+            [
+                1744552800,
+                207
+            ],
+            [
+                1744639200,
+                207
+            ],
+            [
+                1744725600,
+                197
+            ],
+            [
+                1744812000,
+                197
+            ],
+            [
+                1744898400,
+                217
+            ],
+            [
+                1744984800,
+                197
+            ],
+            [
+                1745071200,
+                207
+            ],
+            [
+                1745157600,
+                207
+            ],
+            [
+                1745244000,
+                187
+            ],
+            [
+                1745330400,
+                207
+            ],
+            [
+                1745416800,
+                207
+            ],
+            [
+                1745503200,
+                207
+            ],
+            [
+                1745589600,
+                207
+            ],
+            [
+                1745676000,
+                207
+            ],
+            [
+                1745762400,
+                223
+            ],
+            [
+                1745848800,
+                197
+            ],
+            [
+                1745935200,
+                212
+            ],
+            [
+                1746021600,
+                223
+            ],
+            [
+                1746108000,
+                223
+            ],
+            [
+                1746194400,
+                233
+            ],
+            [
+                1746280800,
+                233
+            ],
+            [
+                1746367200,
+                233
+            ],
+            [
+                1746453600,
+                233
+            ],
+            [
+                1746540000,
+                263
+            ],
+            [
+                1746626400,
+                263
+            ],
+            [
+                1746712800,
+                201
+            ],
+            [
+                1746799200,
+                277
+            ],
+            [
+                1746885600,
+                277
+            ],
+            [
+                1746972000,
+                277
+            ],
+            [
+                1747058400,
+                279
+            ],
+            [
+                1747144800,
+                279
+            ],
+            [
+                1747231200,
+                297
+            ],
+            [
+                1747317600,
+                289
+            ],
+            [
+                1747404000,
+                299
+            ],
+            [
+                1747490400,
+                299
+            ],
+            [
+                1747576800,
+                299
+            ],
+            [
+                1747663200,
+                299
+            ],
+            [
+                1747749600,
+                299
+            ],
+            [
+                1747836000,
+                357
+            ]
+        ],
+        "price_level": "high",
+        "typical_price_range": [
+            180,
+            270
+        ]
+    },
+    "search_metadata": {
+        "created_at": "2025-05-22 05:27:33 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=AUD&tfs=CBwQAhoeEgoyMDI1LTA1LTIzagcIARIDTUVMcgcIARIDQURMGh4SCjIwMjUtMDUtMzBqBwgBEgNBRExyBwgBEgNNRUxCAQFIAXABmAEB&tfu=EgIIAQ",
+        "id": "682eb5c5c20348b7d9f109b5",
+        "json_endpoint": "https://serpapi.com/searches/86e4dcf51cea14eb/682eb5c5c20348b7d9f109b5.json",
+        "prettify_html_file": "https://serpapi.com/searches/86e4dcf51cea14eb/682eb5c5c20348b7d9f109b5.prettify",
+        "processed_at": "2025-05-22 05:27:33 UTC",
+        "raw_html_file": "https://serpapi.com/searches/86e4dcf51cea14eb/682eb5c5c20348b7d9f109b5.html",
+        "status": "Success",
+        "total_time_taken": 0.39
+    },
+    "search_parameters": {
+        "arrival_id": "ADL",
+        "currency": "AUD",
+        "departure_id": "MEL",
+        "engine": "google_flights",
+        "gl": "us",
+        "hl": "en",
+        "outbound_date": "2025-05-23",
+        "return_date": "2025-05-30"
+    }
+}
