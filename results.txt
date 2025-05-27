@@ -1,0 +1,2237 @@
+{
+    "airports": [
+        {
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport"
+                    },
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0Z-TRPPWRr9jfw9_bef8vbKwIqJCTV4768myiQ-0AMA_zCGQwZXz2A5bsJA2kFdaDnwGB64dSl99mg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJVWIr_OblT6otC-OtC5Miq8ZPWn8Ks4RrOtEWQF0-ePi0MEX7ik7E6D6YXy3TyL3ob9pHmwwjKusCoB7ZMnSbmGsspwzm57u-vfrjxM"
+                }
+            ],
+            "departure": [
+                {
+                    "airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport"
+                    },
+                    "city": "Sydney",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_5yBmtOWwa08eIbTc_RUZQ9vSh__CE8_fkK8-LyVB29mB5FtdOjIaE_xLri4REMijNrBd1XGW7MUNA",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdsoXNsip15P8UZRTG3U7kaduxFjaMb01CcKiLeWVx6qTHF0_o43H4KQFFHIgbyLKBnkNTh-4ofS1X2iuG1FEB8TAtoeVgqD9ZUApr4s"
+                }
+            ]
+        },
+        {
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport"
+                    },
+                    "city": "Sydney",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_5yBmtOWwa08eIbTc_RUZQ9vSh__CE8_fkK8-LyVB29mB5FtdOjIaE_xLri4REMijNrBd1XGW7MUNA",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdsoXNsip15P8UZRTG3U7kaduxFjaMb01CcKiLeWVx6qTHF0_o43H4KQFFHIgbyLKBnkNTh-4ofS1X2iuG1FEB8TAtoeVgqD9ZUApr4s"
+                }
+            ],
+            "departure": [
+                {
+                    "airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport"
+                    },
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "country_code": "AU",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn0Z-TRPPWRr9jfw9_bef8vbKwIqJCTV4768myiQ-0AMA_zCGQwZXz2A5bsJA2kFdaDnwGB64dSl99mg",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJVWIr_OblT6otC-OtC5Miq8ZPWn8Ks4RrOtEWQF0-ePi0MEX7ik7E6D6YXy3TyL3ob9pHmwwjKusCoB7ZMnSbmGsspwzm57u-vfrjxM"
+                }
+            ]
+        }
+    ],
+    "best_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeU54b0xDSzJNQVJBQ0dnTkJWVVE0SEhEL1dnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTI3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 19:15"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 17:40"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 527",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 180,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnd01Cb0xDSWlrQVJBQ0dnTkJWVVE0SEhDdWFnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODAwIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 07:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 06:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 800",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 210,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpReU14b0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDIzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 10:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 08:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 423",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        }
+    ],
+    "other_flights": [
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 75000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeU9Sb0xDSzJNQVJBQ0dnTkJWVVE0SEhEL1dnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTI5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 19:55"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 18:20"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 529",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 180,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVek1Sb0xDSzJNQVJBQ0dnTkJWVVE0SEhEL1dnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTMxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 20:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 18:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 531",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 180,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 75000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVek14b0xDSzJNQVJBQ0dnTkJWVVE0SEhEL1dnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTMzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 21:20"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 19:45"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 533",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 180,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeU1Sb0xDUHlZQVJBQ0dnTkJWVVE0SEhDV1l3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTIxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 17:40"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 16:05"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 521",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 196,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": 0,
+                "this_flight": 77000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeU5Sb0xDUHlZQVJBQ0dnTkJWVVE0SEhDV1l3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTI1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 18:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 17:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "JQ 525",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 196,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 75000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVd01Sb0xDS2lxQVJBQ0dnTkJWVVE0SEhDMWJnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTAxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 07:40"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 06:00"
+                    },
+                    "duration": 100,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 501",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 218,
+            "total_duration": 100,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnd09Cb0xDUENyQVJBQ0dnTkJWVVE0SEhDM2J3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODA4Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 08:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 07:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 808",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 220,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRneE1ob0xDUENyQVJBQ0dnTkJWVVE0SEhDM2J3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODEyIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 09:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 07:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 812",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 220,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVd05Sb0xDSnF5QVJBQ0dnTkJWVVE0SEhERWN3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTA1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 08:40"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 07:00"
+                    },
+                    "duration": 100,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 505",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 229,
+            "total_duration": 100,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeE54b0xDSnF5QVJBQ0dnTkJWVVE0SEhERWN3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTE3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 14:15"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 12:40"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 517",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 229,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRneE5ob0xDTml6QVJBQ0dnTkJWVVE0SEhDL2RBPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODE2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 09:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 08:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 816",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 230,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRneU1Cb0xDTml6QVJBQ0dnTkJWVVE0SEhDL2RBPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODIwIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 10:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 08:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 820",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 230,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -4,
+                "this_flight": 74000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVd054b0xDT20rQVJBQ0dnTkJWVVE0SEhEYmV3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTA3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 09:55"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 08:15"
+                    },
+                    "duration": 100,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 73 kg"
+                    ],
+                    "flight_number": "JQ 507",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 245,
+            "total_duration": 100,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 75000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVd09Sb0xDT20rQVJBQ0dnTkJWVVE0SEhEYmV3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTA5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 11:25"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:45"
+                    },
+                    "duration": 100,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 509",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 245,
+            "total_duration": 100,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -1,
+                "this_flight": 76000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeE14b0xDT20rQVJBQ0dnTkJWVVE0SEhEYmV3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTEzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A321",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 13:45"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 12:10"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 76 kg"
+                    ],
+                    "flight_number": "JQ 513",
+                    "legroom": "28 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 245,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": 0,
+                "this_flight": 77000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVek5Sb0xDT20rQVJBQ0dnTkJWVVE0SEhEYmV3PT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTM1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 15:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 13:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "JQ 535",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 245,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRneU5Cb0xDS2pEQVJBQ0dnTkJWVVE0SEhEUGZnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODI0Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 10:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 824",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 250,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRneU5ob0xDS2pEQVJBQ0dnTkJWVVE0SEhEUGZnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODI2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 11:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 826",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 250,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 22,
+                "this_flight": 94000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnMU1Cb0xDS2pEQVJBQ0dnTkJWVVE0SEhEUGZnPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODUwIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 16:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 15:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 93 kg"
+                    ],
+                    "flight_number": "VA 850",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 250,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRd01Sb0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDAxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 07:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 06:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 401",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRd05Sb0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDA1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 08:00"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 06:25"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 405",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRd09Sb0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDA5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 08:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 07:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 409",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpReE5Sb0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDE1Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 09:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 07:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 415",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRMk14b0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDYzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 17:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 16:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 463",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRNU54b0xDS3pLQVJBQ0dnTkJWVVE0SEhDWGd3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDk3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 23:15"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 21:40"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 497",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 259,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+            "carbon_emissions": {
+                "difference_percent": -3,
+                "this_flight": 75000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZLVVRVeE1Sb0xDTXZPQVJBQ0dnTkJWVVE0SEhEM2hRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIkpRIiwiNTExIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Jetstar",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JQ.png",
+                    "airplane": "Airbus A320",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 12:10"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 10:35"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "JQ 511",
+                    "legroom": "29 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 265,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpReE9Sb0xDTVRiQVJBQ0dnTkJWVVE0SEhDcGpnRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDE5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 09:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 08:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 419",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 281,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpReU54b0xDTVRiQVJBQ0dnTkJWVVE0SEhDcGpnRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDI3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 10:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 427",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 281,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnek1Cb0xDTlRlQVJBQ0dnTkJWVVE0SEhDc2tBRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODMwIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 11:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 10:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 830",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 285,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnMk5ob0xDTlRlQVJBQ0dnTkJWVVE0SEhDc2tBRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODY2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 18:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 17:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 866",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 285,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnNE1ob0xDTHptQVJBQ0dnTkJWVVE0SEhDMWxRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODgyIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 20:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 19:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 882",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 295,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnNU9Cb0xDS2oxQVJBQ0dnTkJWVVE0SEhDRm53RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODk4Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 23:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 22:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 898",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 314,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRek1Sb0xDTHovQVJBQ0dnTkJWVVE0SEhEUHBRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDMxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 11:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 431",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 327,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRM09Sb0xDTHovQVJBQ0dnTkJWVVE0SEhEUHBRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDc5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 19:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 18:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 479",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 327,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRMU14b0xDTnllQWhBQ0dnTkJWVVE0SEhEeHVRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDUzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 16:20"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 14:45"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 453",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 367,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRM01Sb0xDTnllQWhBQ0dnTkJWVVE0SEhEeHVRRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDcxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 18:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 17:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 471",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 367,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZXUVRnek5Cb0xDTEMxQWhBQ0dnTkJWVVE0SEhESnlBRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiODM0Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 12:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 11:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 77 kg"
+                    ],
+                    "flight_number": "VA 834",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 396,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+            "carbon_emissions": {
+                "difference_percent": 132,
+                "this_flight": 179000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ3RXUVRVeE1YeFdRVGN6TmhvTENJREpBaEFDR2dOQlZVUTRISENsMVFFPSIsW1siU1lEIiwiMjAyNS0wNS0zMSIsIk9PTCIsbnVsbCwiVkEiLCI1MTEiXSxbIk9PTCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlZBIiwiNzM2Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "OOL",
+                        "name": "Gold Coast Airport",
+                        "time": "2025-05-31 10:40"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:20"
+                    },
+                    "duration": 80,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 74 kg"
+                    ],
+                    "flight_number": "VA 511",
+                    "legroom": "31 in",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "Virgin Australia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VA.png",
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 14:20"
+                    },
+                    "departure_airport": {
+                        "id": "OOL",
+                        "name": "Gold Coast Airport",
+                        "time": "2025-05-31 11:55"
+                    },
+                    "duration": 145,
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 103 kg"
+                    ],
+                    "flight_number": "VA 736",
+                    "legroom": "31 in",
+                    "plane_and_crew_by": "Virgin Aust Intl for Virgin Aust",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 75,
+                    "id": "OOL",
+                    "name": "Gold Coast Airport"
+                }
+            ],
+            "price": 422,
+            "total_duration": 300,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRek14b0xDTXpOQWhBQ0dnTkJWVVE0SEhDaTJBRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDMzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 11:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 10:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 433",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 427,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRNU1Sb0xDTXpOQWhBQ0dnTkJWVVE0SEhDaTJBRT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDkxIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 21:05"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 19:30"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 491",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 427,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRek54b0xDS1NFQXhBQ0dnTkJWVVE0SEhEYyt3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDM3Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 12:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 11:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 437",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 497,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRME9Sb0xDS1NFQXhBQ0dnTkJWVVE0SEhEYyt3RT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDQ5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 15:35"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 14:00"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 449",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 497,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+            "carbon_emissions": {
+                "difference_percent": 1,
+                "this_flight": 78000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZ1ZSUmpRME14b0xDTVNnQkJBQ0dnTkJWVVE0SEhDQzRRST0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNRUwiLG51bGwsIlFGIiwiNDQzIl1dXQ==",
+            "flights": [
+                {
+                    "airline": "Qantas",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QF.png",
+                    "airplane": "Boeing 737",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 14:20"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 12:45"
+                    },
+                    "duration": 95,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 78 kg"
+                    ],
+                    "flight_number": "QF 443",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "price": 697,
+            "total_duration": 95,
+            "type": "Round trip"
+        },
+        {
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZL.png",
+            "carbon_emissions": {
+                "difference_percent": 138,
+                "this_flight": 183000,
+                "typical_for_this_route": 77000
+            },
+            "departure_token": "WyJDalJJWWtoYVJrNDNjVGR3ZVZsQlFrdFBNV2RDUnkwdExTMHRMUzB0TFhaMFltWnlOMEZCUVVGQlIyY3hVRkIzU2prdFoxZEJFZzFhVERZeE1UZDhXa3d6TkRZNUdnc0l1Nm9IRUFJYUEwRlZSRGdjY0xUZ0JBPT0iLFtbIlNZRCIsIjIwMjUtMDUtMzEiLCJNSU0iLG51bGwsIlpMIiwiNjExNyJdLFsiTUlNIiwiMjAyNS0wNS0zMSIsIk1FTCIsbnVsbCwiWkwiLCIzNDY5Il1dXQ==",
+            "flights": [
+                {
+                    "airline": "Rex",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZL.png",
+                    "airplane": "SAAB SF 340",
+                    "arrival_airport": {
+                        "id": "MIM",
+                        "name": "Merimbula Airport",
+                        "time": "2025-05-31 10:15"
+                    },
+                    "departure_airport": {
+                        "id": "SYD",
+                        "name": "Sydney Airport",
+                        "time": "2025-05-31 09:05"
+                    },
+                    "duration": 70,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 83 kg"
+                    ],
+                    "flight_number": "ZL 6117",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                },
+                {
+                    "airline": "Rex",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ZL.png",
+                    "airplane": "SAAB SF 340",
+                    "arrival_airport": {
+                        "id": "MEL",
+                        "name": "Melbourne Airport",
+                        "time": "2025-05-31 13:55"
+                    },
+                    "departure_airport": {
+                        "id": "MIM",
+                        "name": "Merimbula Airport",
+                        "time": "2025-05-31 12:30"
+                    },
+                    "duration": 85,
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 99 kg"
+                    ],
+                    "flight_number": "ZL 3469",
+                    "legroom": "30 in",
+                    "travel_class": "Economy"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 135,
+                    "id": "MIM",
+                    "name": "Merimbula Airport"
+                }
+            ],
+            "price": 1202,
+            "total_duration": 290,
+            "type": "Round trip"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 180,
+        "price_history": [
+            [
+                1743080400,
+                176
+            ],
+            [
+                1743166800,
+                176
+            ],
+            [
+                1743253200,
+                176
+            ],
+            [
+                1743339600,
+                176
+            ],
+            [
+                1743426000,
+                176
+            ],
+            [
+                1743512400,
+                176
+            ],
+            [
+                1743598800,
+                176
+            ],
+            [
+                1743685200,
+                146
+            ],
+            [
+                1743771600,
+                188
+            ],
+            [
+                1743858000,
+                176
+            ],
+            [
+                1743948000,
+                176
+            ],
+            [
+                1744034400,
+                176
+            ],
+            [
+                1744120800,
+                188
+            ],
+            [
+                1744207200,
+                188
+            ],
+            [
+                1744293600,
+                188
+            ],
+            [
+                1744380000,
+                188
+            ],
+            [
+                1744466400,
+                176
+            ],
+            [
+                1744552800,
+                176
+            ],
+            [
+                1744639200,
+                176
+            ],
+            [
+                1744725600,
+                176
+            ],
+            [
+                1744812000,
+                176
+            ],
+            [
+                1744898400,
+                160
+            ],
+            [
+                1744984800,
+                168
+            ],
+            [
+                1745071200,
+                168
+            ],
+            [
+                1745157600,
+                160
+            ],
+            [
+                1745244000,
+                160
+            ],
+            [
+                1745330400,
+                160
+            ],
+            [
+                1745416800,
+                160
+            ],
+            [
+                1745503200,
+                160
+            ],
+            [
+                1745589600,
+                160
+            ],
+            [
+                1745676000,
+                160
+            ],
+            [
+                1745762400,
+                160
+            ],
+            [
+                1745848800,
+                160
+            ],
+            [
+                1745935200,
+                160
+            ],
+            [
+                1746021600,
+                160
+            ],
+            [
+                1746108000,
+                160
+            ],
+            [
+                1746194400,
+                160
+            ],
+            [
+                1746280800,
+                160
+            ],
+            [
+                1746367200,
+                160
+            ],
+            [
+                1746453600,
+                160
+            ],
+            [
+                1746540000,
+                160
+            ],
+            [
+                1746626400,
+                160
+            ],
+            [
+                1746712800,
+                160
+            ],
+            [
+                1746799200,
+                160
+            ],
+            [
+                1746885600,
+                160
+            ],
+            [
+                1746972000,
+                160
+            ],
+            [
+                1747058400,
+                160
+            ],
+            [
+                1747144800,
+                160
+            ],
+            [
+                1747231200,
+                160
+            ],
+            [
+                1747317600,
+                160
+            ],
+            [
+                1747404000,
+                160
+            ],
+            [
+                1747490400,
+                160
+            ],
+            [
+                1747576800,
+                160
+            ],
+            [
+                1747663200,
+                160
+            ],
+            [
+                1747749600,
+                160
+            ],
+            [
+                1747836000,
+                160
+            ],
+            [
+                1747922400,
+                160
+            ],
+            [
+                1748008800,
+                160
+            ],
+            [
+                1748095200,
+                160
+            ],
+            [
+                1748181600,
+                160
+            ],
+            [
+                1748268000,
+                180
+            ]
+        ],
+        "price_level": "typical",
+        "typical_price_range": [
+            155,
+            200
+        ]
+    },
+    "search_metadata": {
+        "created_at": "2025-05-27 04:18:03 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=AUD&tfs=CBwQAhoeEgoyMDI1LTA1LTMxagcIARIDU1lEcgcIARIDTUVMGh4SCjIwMjUtMDYtMTVqBwgBEgNNRUxyBwgBEgNTWURCAQFIAXABmAEB&tfu=EgIIAQ",
+        "id": "68353cfb71577fca8246bc0d",
+        "json_endpoint": "https://serpapi.com/searches/8b00a0049f0a7c87/68353cfb71577fca8246bc0d.json",
+        "prettify_html_file": "https://serpapi.com/searches/8b00a0049f0a7c87/68353cfb71577fca8246bc0d.prettify",
+        "processed_at": "2025-05-27 04:18:03 UTC",
+        "raw_html_file": "https://serpapi.com/searches/8b00a0049f0a7c87/68353cfb71577fca8246bc0d.html",
+        "status": "Success",
+        "total_time_taken": 1.67
+    },
+    "search_parameters": {
+        "arrival_id": "MEL",
+        "currency": "AUD",
+        "departure_id": "SYD",
+        "engine": "google_flights",
+        "gl": "us",
+        "hl": "en",
+        "outbound_date": "2025-05-31",
+        "return_date": "2025-06-15"
+    }
+}

@@ -399,9 +399,12 @@ def seat_management():
 
 @app.route('/logout', methods=['GET', 'POST'])
 def logout():
-    session.clear()  # Clears all session data
-    print('complete')
+    session.clear()
     return redirect('/')
+
+@app.route('/support')
+def support():
+    return render_template('support.html')
 
 if __name__ == "__main__": 
     app.run(debug=True) 

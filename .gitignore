@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Stadore
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python specific
+*.egg-info/
+dist/
+build/
+
+# JetBrains IDEs (like PyCharm)
+.idea/
+
+# Node.js (if using JavaScript)
+node_modules/
+
+# Environment variables
+.env
