@@ -5,7 +5,29 @@
   <title>Flight Selection</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles_search_result.css') }}">
+  <style>
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-top: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
 
+    /* .footer .continue {
+      color: #007bff;
+      font-weight: bold;
+    } */
+
+    /* .footer-price {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: bold;
+      font-size: 1rem;
+    } */
+  </style>
 </head>
 <body onload="showInfo()" id="body">
   <div id="departView" style="display: block;">
